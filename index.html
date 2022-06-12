@@ -9,15 +9,16 @@
 </head>
 <body>
     <div class="banner">
+
         <header>
             <div class="logo"><p><span>Jac</span>kie</p></div>
             <!--navigation links-->
             <div class="navlinks">
-                <a href="#">Home</a>
-                <a href="#">About me</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Blogs</a>
-                <a href="#">Contact me</a>
+                <a href="#home">Home</a>
+                <a href="#about">About me</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#blog">Blogs</a>
+                <a href="#contact">Contact me</a>
             </div>
         </header>
         <section>
@@ -39,12 +40,121 @@
             </div>
 
             <!--about-->
+            <h5 class="subhead">About Me</h5>
+            <div class="about" id="about">
+                <div class="left-about">
+                    <h2 >Experience</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Earum iste quos deserunt nam ab commodi laudantium dolore excepturi!
+                        In cumque soluta dolor. Quia ipsa voluptate veritatis
+                        dolorum in perferendis sunt.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Earum iste quos deserunt nam ab commodi laudantium dolore excepturi!
+                        In cumque soluta dolor. Quia ipsa voluptate veritatis
+                        dolorum in perferendis sunt.
+                    </p>
 
+                </div>
+                
+                <div class="right-about">
+                    <h2 >Skills</h2>
+
+                    <div class="skills">
+                        <div class="skill">
+                            HTML 
+                            <div class="progress"></div>
+                        </div>
+                        <div class="skill">
+                            CSS 
+                            <div class="progress"></div>
+                        </div>
+                        <div class="skill">
+                            JAVASCRIPT 
+                            <div class="progress"></div>
+                        </div>
+                        <div class="skill">
+                            GIT 
+                            <div class="progress"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
             <!--portfolio-->
+            <h5 class="subhead">My Portfolio</h5>
+            <div class="portfolio" id="portfolio">
+                <p>Here are some of my projects</p>
+                <div class="projects">
+                    <div class="proj">
+                        <img src="./images/image1.jpg" alt="project1" width="250px">
+                        <p>Project 1</p>
+                    </div>
+                    <div class="proj">
+                        <img src="./images/image1.jpg" alt="project1" width="250px">
+                        <p>Project 2</p>
+                    </div>
+                    <div class="proj">
+                        <img src="./images/image1.jpg" alt="project1" width="250px">
+                        <p>Project 3</p>
+                    </div>
+                    <div class="proj">
+                        <img src="./images/image1.jpg" alt="project1" width="250px">
+                        <p>Project 4</p>
+                    </div>
+                </div>
 
+            </div>
             <!--blogs-->
+            <h5 class="subhead">Blogs</h5>
+            <div class="blog" id="blog">
+                <p>My Blog posts</p>
+                <div class="posts">
+                    <div class="post">
+                        <img src="./images/image1.jpg" alt="project1" width="250px">
+                        <h5>My Web</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                           Earum iste quos deserunt nam ab commodi laudantium dolore excepturi!
+                           In cumque soluta dolor. Quia ipsa voluptate veritatis
+                           dolorum in perferendis sunt.
+                        </p>
+                    </div>
+                    <div class="post">
+                        <img src="./images/image1.jpg" alt="project1" width="250px">
+                        <h5>sound city</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                           Earum iste quos deserunt nam ab commodi laudantium dolore excepturi!
+                           In cumque soluta dolor. Quia ipsa voluptate veritatis
+                           dolorum in perferendis sunt.
+                        </p>
+                    </div>
+                    <div class="post">
+                        <img src="./images/image1.jpg" alt="project1" width="250px">
+                        <h5>make up website</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                           Earum iste quos deserunt nam ab commodi laudantium dolore excepturi!
+                           In cumque soluta dolor. Quia ipsa voluptate veritatis
+                           dolorum in perferendis sunt.
+                        </p>
+                    </div>
+                </div>
 
+            </div>
             <!--contact-->
+            <h5 class="subhead">Contact Me</h5>
+            <div class="contact" id="contact">
+                <p>Contact me Here</p>
+                <p id="error"></>
+                <form action="#">
+                    <input id ="uname"type="text" placeholder="Enter your name" required>
+                    <input id = "subject" type="text" placeholder="Enter subject" required>
+                    <textarea id="msg" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    <input id ="btn" type="submit" value="Send Message">
+                </form>
+
+            </div>
         </section>
     </div>
     
